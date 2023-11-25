@@ -1,0 +1,143 @@
+{
+  "id": "86644061-2dac-42fa-afe7-bd5d1743e670",
+  "version": "2.0",
+  "name": "Projeto de teste",
+  "url": "https://nodejs.org/en/download/current",
+  "tests": [{
+    "id": "1a9ab587-d494-4132-bcbf-944979fde0a9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "64252eb5-e7ab-41fe-a01e-872f2e313a17",
+      "comment": "",
+      "command": "open",
+      "target": "https://nodejs.org/en/download/current",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b32d0b6e-a89f-41be-85fd-15c26885d203",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "822x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5506d76f-eb73-425a-97f2-56e6fdb286ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-divider-pipe > li:nth-child(1) > a",
+      "targets": [
+        ["css=.list-divider-pipe > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/about')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ee61c7-649f-4d0e-94da-aaad55ee4927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-divider-pipe > li:nth-child(2) > a",
+      "targets": [
+        ["css=.list-divider-pipe > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/learn')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61e8d8c-203e-4e2e-8ce5-828a719d7e2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-divider-pipe > li:nth-child(3) > a",
+      "targets": [
+        ["css=.list-divider-pipe > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/download')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5842dedc-b73e-48a7-80b9-fc2eeeec400e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-divider-pipe > li:nth-child(4) > a",
+      "targets": [
+        ["css=.list-divider-pipe > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/docs')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e04e42-f6cf-4095-8170-9f259dc3fce5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ES6 and beyond",
+      "targets": [
+        ["linkText=ES6 and beyond", "linkText"],
+        ["css=nav:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ES6 and beyond')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/docs/es6')]", "xpath:href"],
+        ["xpath=//main/div/nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ES6 and beyond')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d21b5412-b088-4853-930f-64eac8a694f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dependencies",
+      "targets": [
+        ["linkText=Dependencies", "linkText"],
+        ["css=nav:nth-child(1) li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dependencies')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://github.com/nodejs/node/blob/main/doc/contributing/maintaining/maintaining-dependencies.md')]", "xpath:href"],
+        ["xpath=//main/div/nav/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dependencies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6968b88-58f9-4e37-8f88-0b567e09edb6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=nodejs",
+      "targets": [
+        ["linkText=nodejs", "linkText"],
+        ["css=.url", "css:finder"],
+        ["xpath=//a[contains(text(),'nodejs')]", "xpath:link"],
+        ["xpath=//div[@id='repository-container-header']/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nodejs')]", "xpath:href"],
+        ["xpath=//div/div/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'nodejs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b001f75b-64b4-49e6-a1dc-6c4ccb5d2751",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=nodejs",
+      "targets": [
+        ["linkText=nodejs", "linkText"],
+        ["css=.url", "css:finder"],
+        ["xpath=//a[contains(text(),'nodejs')]", "xpath:link"],
+        ["xpath=//div[@id='repository-container-header']/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nodejs')]", "xpath:href"],
+        ["xpath=//div/div/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'nodejs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c89dda6-5b23-4dcf-8832-ab1c839bd528",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a9ab587-d494-4132-bcbf-944979fde0a9"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://www.gov.br/pt-br", "https://nodejs.org/en/download/current"],
+  "plugins": []
+}
